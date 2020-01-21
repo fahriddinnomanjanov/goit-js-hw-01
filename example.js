@@ -20,7 +20,7 @@
 
 
 
-let message = "The my name Artem is a cat!";
+let message = "The my name Artem. is a cat!";
 const search = "is";
 const replace = "(is)";
 
