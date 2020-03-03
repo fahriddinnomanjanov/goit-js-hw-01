@@ -16,12 +16,14 @@
 let input;
 let total = 0;
 
+
 while (input !== null) {
   input = prompt("Введите число");
   if (Number.isNaN(Number(input))) {
-    alert("Было введено не число, попробуйте еще раз");
+    alert("Чувак это не число попробуй еще раз");
   } else {
     total = total + Number(input);
   }
 }
-alert(`Общая сумма чисел равна ${total}`);
+alert(`общая сумма чисель равно ${total}`);
+console.log(`общая сумма чисель равно ${total}`);

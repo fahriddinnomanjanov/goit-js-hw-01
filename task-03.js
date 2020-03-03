@@ -1,6 +1,6 @@
 "use strict";
 
-const ADMIN_PASSWORD = "Fahriddin";
+const ADMIN_PASSWORD = "fahriddin";
 let message;
 const password = prompt("пароль");
 
@@ -12,3 +12,4 @@ if (password == null) {
   message = "Доступ запрещен, неверный пароль!";
 }
 alert(message);
+console.log(message);
